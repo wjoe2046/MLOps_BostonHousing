@@ -1,27 +1,18 @@
 [![CircleCI](https://circleci.com/gh/wjoe2046/MLOps_BostonHousing.svg?style=svg)](https://circleci.com/gh/wjoe2046/MLOps_BostonHousing)
 
-## Project Overview
+## Project Summary
 
-In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
+In this project, I operationalized a pre-trained, `sklearn` [model](https://www.kaggle.com/c/boston-housing), served out of a Python flask app`app.py`, that has been trained to predict housing prices in Boston according to features such as average rooms in a home, data about highway access, and teacher-to-pupil ratios. 
 
-You are given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project tests your ability to operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
+I built, tested, deployed, and monitored the Machine Learning Microservice API through all phases of ML Ops pipeline. From
 
-### Project Tasks
+1. Containerizing and deploying the Docker image by writing the Makefile and Dockerfile
+2. Running, testing, and debugging the application on a virtualized local machine
+3. Improving the log statements and uploading the image to DockerHub
+4. Configuring a local Kubernetes cluster and deploying it on minikube
+5. Setting up CICD pipeline with automated building, caching, and linting processes. 
 
-Your project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
-* Test your project code using linting
-* Complete a Dockerfile to containerize this application
-* Deploy your containerized application using Docker and make a prediction
-* Improve the log statements in the source code for this application
-* Configure Kubernetes and create a Kubernetes cluster
-* Deploy a container using Kubernetes and make a prediction
-* Upload a complete Github repo with CircleCI to indicate that your code has been tested
-
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
-
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
-
----
+The project reinforced my knowledge cloud DevOps operation, and its files could be readily extended for use to other pre-trained machine learning deployment, such as those for image recognition and data labeling. 
 
 ## Setup the Environment
 
