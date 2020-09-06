@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/wjoe2046/hello.svg?style=svg)](https://circleci.com/gh/wjoe2046/hello)
+[![CircleCI](https://circleci.com/gh/wjoe2046/MLOps_BostonHousing.svg?style=svg)](https://circleci.com/gh/wjoe2046/MLOps_BostonHousing)
 
 ## Project Overview
 
